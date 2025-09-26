@@ -1,0 +1,35 @@
+POST http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+    "name": "Aluno",
+    "email": "aluno@gmail.com",
+    "rg": 12345678,
+    "age": 14,
+    "serie": "1A"
+}
+
+###
+
+GET http://localhost:3000/api/register
+
+###
+
+GET http://localhost:3000/api/register/68bf5ee94b98d7a505630232
+
+###
+
+PUT http://localhost:3000/api/register/68bf5ca2134dc4be5de52204
+Content-Type: application/json
+
+{
+    "name": "thiagoAtualizado",
+    "email": "thiago@gmail.com",
+    "rg": 12345678,
+    "age": 14,
+    "serie": "1A"
+}
+
+### 
+
+DELETE http://localhost:3000/api/register/68cb264b11cfadb6b5758192

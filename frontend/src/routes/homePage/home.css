@@ -1,0 +1,232 @@
+:root {
+    --blue-primary: #4a86db;
+    --blue-secondary: #699be1;
+    --blue-tertiary: #E9F2FA;
+    --text-light: #fff;
+    --gray-light: #e2e8ef;
+    --gray-light-second: #F8FAFC;
+    --gray-average: #6B7280;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-apresentation {
+    background-color: var(--blue-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 4.5rem;
+    gap: 1.5rem;
+}
+
+#capelo {
+    width: 100px;
+    height: 100px;
+    margin-top: 2rem;
+    background-color: var(--blue-secondary);
+    border-radius: 50%;
+    padding: 1.2rem;
+}
+
+.home-apresentation h1 {
+    font-weight: bold;
+    color: var(--text-light);
+    font-size: 48px;
+}
+
+.home-apresentation p {
+    font-weight: bold;
+    color: var(--gray-light);
+    max-width: 700px;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 19px;
+}
+
+.home-btn {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    background-color: var(--text-light);
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 16px;
+    gap: 0.4rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.admin:hover {
+    opacity: 0.7;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.students {
+    background-color: transparent;
+    border: 1px solid var(--text-light);
+    transition: 0.5s;
+}
+
+.students:hover {
+    opacity: 0.6;
+}
+
+.students a {
+    color: var(--text-light);
+}
+
+.home-highlights {
+    background-color: var(--gray-light-second);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 4.5rem;
+}
+
+.highlights-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.highlights-title h1 {
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.highlights-title p {
+    color: var(--gray-average);
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 0.5rem;
+}
+
+.highlights-cards {
+    display: flex;
+    margin-top: 3rem;
+    gap: 2rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--text-light);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05),
+        0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card p {
+    color: var(--gray-average);
+    max-width: 400px;
+    text-align: center;
+}
+
+.card img {
+    background-color: var(--gray-light);
+    border-radius: 50%;
+    padding: 0.8rem;
+    width: 50px;
+    height: 50px;
+}
+
+.home-action {
+    background-color: var(--blue-tertiary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 5.5rem;
+    gap: 1.5rem;
+}
+
+.home-action h1 {
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.home-action p {
+    color: var(--gray-average);
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.action-btn {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.btn-admin {
+    background: linear-gradient(90deg, #3B82F6 0%, #60A5FA 100%);
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.btn-admin:hover {
+    transform: scale(1.05);
+    background-color: #E5E7EB; 
+}
+
+.btn-admin a {
+    text-decoration: none;
+    color: var(--text-light);
+}
+
+.btn-student {
+    background-color: var(--text-light);
+    border-radius: 8px;
+    padding: 0.8rem;
+    border: 1px solid var(--gray-light);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-student:hover {
+    background-color: #E5E7EB;
+}
+
+.btn-student a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

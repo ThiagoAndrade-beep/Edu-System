@@ -1,0 +1,69 @@
+.navBar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0.5rem;
+}
+
+.navBar-title {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.navBar-nav {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav-student {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 1rem;
+    transition: background 0.3s ease;
+}
+
+.nav-admin {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.nav-admin:hover {
+    background-color: #E5E7EB;
+    border-radius: 8px;
+}
+
+.nav-student:hover {
+    background-color: #E5E7EB;
+    border-radius: 8px;
+}
+
+.nav-student img {
+    height: 19px;
+    width: 19px;
+}
+
+.nav-admin img {
+    height: 22px;
+    width: 22px;
+}
+
+.nav-student a {
+    text-decoration: none;
+    color: #6B7280;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.nav-admin a {
+    text-decoration: none;
+    color: #6B7280;
+    font-size: 13px;
+    font-weight: bold;
+}
