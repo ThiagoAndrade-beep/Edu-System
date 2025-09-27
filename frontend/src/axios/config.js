@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const fetchApi = axios.create({
-    baseURL: "http://localhost:3000/api/",
+    baseURL: "https://edu-system-my2r.onrender.com/api/",
     headers: {
         "Content-Type": "application/json",
     },
